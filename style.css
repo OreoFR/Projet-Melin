@@ -1,4 +1,4 @@
-*
+ul li
 {
 	list-style:none;
 }
@@ -22,8 +22,15 @@ nav
 	width: 100%;
     position:fixed;
 	top: 0;
+	left: 0;
 	display: flex;
 	justify-content: space-between;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: black;
 }
 
 #navcss
@@ -46,27 +53,33 @@ nav ul li:hover
 
 /* HEADER */
 
-#slider
+#sectionslider
 {
-position: relative;
-width: 100%;
-overflow: hidden;
+	overflow: hidden;
+	/*margin-top: 120px;*/
 }
 
-#slider ul
+#slider
 {
-width: auto;
-height: 100%;
-position: relative;
-left: 0;
-top: 0;
-padding: 0;
+	width: 200%;
+	display:flex;
+	position: relative;
+	overflow: hidden;
+	animation: slider 8s infinite;
+}
+
+@keyframes slider
+{
+	0% {margin-left:0;}
+	40% {margin-left:0;}
+	50% {margin-left:-100%;}
+	90% {margin-left:-100%;}
+	100% {margin-left:0;}
 }
 
 #slider img 
 {
-	width: 100%;
-	height: auto;
+	width: 50%;
 }
 
 #services
