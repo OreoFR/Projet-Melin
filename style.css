@@ -1,0 +1,41 @@
+nav ul li
+{
+	border-top: 3px solid rgb(255, 255, 255);
+	padding: 2em 1em 2em 1em;
+}
+
+* 
+{
+	font-family: "Open Sans", sans-serif;
+}
+
+nav 
+{
+	z-index: 10;
+	font-weight: 600;
+	background-color: white;
+	width: 100%;
+    position:fixed;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+#navcss
+{
+	display: flex;
+	margin-right: 10%;
+	list-style:none;
+	margin-top: auto;
+}
+
+nav div 
+{
+	padding-top: 1em;
+	margin-left: 10%;
+}
+
+nav ul li:hover 
+{
+	border-top: 3px solid rgb(82,159,195);
+}
