@@ -1,10 +1,15 @@
+*
+{
+	list-style:none;
+}
+
 nav ul li
 {
 	border-top: 3px solid rgb(255, 255, 255);
 	padding: 2em 1em 2em 1em;
 }
 
-* 
+body 
 {
 	font-family: "Open Sans", sans-serif;
 }
@@ -25,7 +30,6 @@ nav
 {
 	display: flex;
 	margin-right: 10%;
-	list-style:none;
 	margin-top: auto;
 }
 
@@ -38,4 +42,74 @@ nav div
 nav ul li:hover 
 {
 	border-top: 3px solid rgb(82,159,195);
+}
+
+/* HEADER */
+
+#slider
+{
+position: relative;
+width: 100%;
+overflow: hidden;
+}
+
+#slider ul
+{
+width: auto;
+height: 100%;
+position: relative;
+left: 0;
+top: 0;
+padding: 0;
+}
+
+#slider img 
+{
+	width: 100%;
+	height: auto;
+}
+
+#services
+{
+	text-align: center;
+	margin:0;
+	font-weight:600;
+	position: relative;
+	margin: 5em auto;
+}
+
+#services h1
+{
+	margin-bottom: 0.3em;
+	font-size: 250%;
+}
+
+.fa-circle
+{
+	line-height: 0.85em;
+	color: rgb(82,159,195);
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+#facircle
+{
+	position: relative;
+}
+
+hr
+{
+	z-index: 1;
+	width: 20%;
+	position: absolute;
+	left: 40%;
+	top: 0.3em;
+}
+
+i
+{
+ 	z-index: 2;
+ 	color: rgb(82,159,195);
+ 	position: absolute;
+ 	left: 48%;
 }
