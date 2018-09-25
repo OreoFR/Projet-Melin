@@ -15,6 +15,10 @@ nav ul li
 	padding: 2em 1em 2em 1em;
 }
 
+header
+{
+	height: 105px;
+}
 body 
 {
 	font-family: "Open Sans", sans-serif;
@@ -86,11 +90,11 @@ nav ul li:hover
 #slider img 
 {
 	width: 50%;
+	height: 75%
 }
 
 #services
 {
-	text-align: center;
 	margin:0;
 	font-weight:600;
 	position: relative;
@@ -125,7 +129,7 @@ hr
 	top: 0.3em;
 }
 
-i
+.fa-circle
 {
  	z-index: 2;
  	color: rgb(82,159,195);
@@ -136,25 +140,41 @@ i
 #listeservices
 {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 	/*border: solid 1px black;*/
 }
 
 .paragraphe
 {
+	width: 100%;
 	display: flex;
-	justify-content: space-around;
-	background-color: grey;
+	justify-content: space-between;
+	align-items: center;
 	/*border: solid 1px blue;*/
 }
 
 .paragrapheimage
 {
-	background-color: blue;
+
 }
 
 .paragraphetext
 {
-	
+	width: 100%;
 }
 
+section#services h1, section#services p.sectiondescription
+{
+	text-align:center;
+}
+
+section#services #listeservices #paragraphes .paragraphe .paragrapheimage
+{
+margin-right: 5%;
+}
+
+#paragraphes
+{
+	width: 45%
+}
