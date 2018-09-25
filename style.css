@@ -1,6 +1,6 @@
 body,div
 {
-margin: 0;
+	margin: 0;
 }
 
 /* DEBUT CSS */
@@ -18,11 +18,6 @@ nav ul li
 body 
 {
 	font-family: "Open Sans", sans-serif;
-}
-
-div 
-{
-	
 }
 
 nav 
@@ -137,3 +132,17 @@ i
  	position: absolute;
  	left: 48%;
 }
+
+#listeservices
+{
+	display: flex;
+	justify-content: space-between;
+	/*border: solid 1px black;*/
+}
+
+.paragraphe
+{
+	display: flex;
+	/*border: solid 1px blue;*/
+}
+
