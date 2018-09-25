@@ -143,6 +143,18 @@ i
 .paragraphe
 {
 	display: flex;
+	justify-content: space-around;
+	background-color: grey;
 	/*border: solid 1px blue;*/
+}
+
+.paragrapheimage
+{
+	background-color: blue;
+}
+
+.paragraphetext
+{
+	
 }
 
