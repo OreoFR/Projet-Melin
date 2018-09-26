@@ -101,7 +101,7 @@ nav ul li:hover
 	display:flex;
 	position: relative;
 	overflow: hidden;
-	animation: slider 8s infinite;
+	animation: slider 8s infinite; 
 }
 
 /* On ajoute les etapes pour l'animation du slider */
@@ -323,4 +323,44 @@ section#portfolio #facircle2 .rondbleuparagraphe
 	margin-left: 603px;
 	margin-top: 1627.5px;
 	z-index: 9;
+}
+
+#bloctexteslider1
+{
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 120px;
+}
+
+#bloctexteslider2
+{
+	position: absolute;
+	margin-left: 1419px;
+	margin-top: 120px;
+}
+
+#texteslider1
+{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+
+#paragrapheslider1
+{
+	color: white;
+	font-size: 15px;
+}
+
+#texteslider2
+{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+
+#paragrapheslider2
+{
+	color: white;
+	font-size: 15px;
 }
