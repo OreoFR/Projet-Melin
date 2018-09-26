@@ -191,6 +191,7 @@ section#services h1, section#services p.sectiondescription
 + listeservices + paragraphes + id paragraphe et paragrapheimage  + la couleur */
 section#services #listeservices #paragraphes .paragraphe .paragrapheimage
 {
+	display: flex; /* Flex pour les les 2 FA Icone */
 	margin-right: 5%;
 	color: rgb(82,159,195);
 }
@@ -210,7 +211,7 @@ section#services #listeservices #paragraphes .paragraphetext aside
 }
 
 /* On positionne l'onglet "Nos Services" pour que sa soit droit quand on clique sur la section du nav */
-#service
+#nos-service
 {
 	padding: 2em 0em 1.7em 0em;
 }
