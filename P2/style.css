@@ -6,12 +6,7 @@
 	font-weight: lighter;
 }
 
-/* On met le margin a 0 pour le body et les div pour 
-pas que il y ai de crop sur du au preset du navigateur */
-body,div
-{
-	margin: 0;
-}
+
 
 /* On désactive l'affichage des puces au ul/li */
 ul li
@@ -31,18 +26,26 @@ header
 	height: 105px;
 }
 
+#bloc_page
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
 nav 
 {
 	z-index: 10;
 	font-weight: 600;
 	background-color: white;
 	width: 100%;
-    position:fixed;
+    position: fixed;
 	top: 0;
 	left: 0;
 	display: flex;
 	justify-content: space-between;
-	height: 16%;
+	height: 105px;
 }
 
 /* Supression des liens déjà visité dans la navbar + couleur noir par defaut */
@@ -139,35 +142,27 @@ nav ul li:hover
 	font-size: 250%;
 }
 
-.fa-circle
-{
-	line-height: 0.85em;
-	color: rgb(82,159,195);
-	border: 5px solid white;
-	border-radius: 50%;
-}
 
-#facircle
-{
-	position: relative;
-}
-
-hr
+section#services hr
 {
 	z-index: 1;
-	width: 20%;
+	width: 12%;
 	position: absolute;
-	left: 40%;
-	top: 0.3em;
+	left: 44%;
+	top: 169px;
 }
 
-.fa-circle
+section#portfolio hr
 {
- 	z-index: 2;
- 	color: rgb(82,159,195);
- 	position: absolute;
- 	left: 48%;
+	z-index: 1;
+	width: 12%;
+	position: absolute;
+	left: 44%;
+	top: 1656px;
 }
+
+
+
 
 #listeservices
 {
@@ -190,19 +185,55 @@ hr
 	width: 100%;
 }
 
-/* On aligne les texte H1 + les paragraphes dans toutes les section services/portfolio */
+.cerclegris
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid grey;
+	top: 0;
+	left: 0;
+}
+
+.rondbleuparagraphe
+{
+	top: 28px;
+	left: 62px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgb(82,159,195);
+	border: solid 2px white;
+}
+
+/* On aligne les texte H2 + les paragraphes dans toutes les section services/portfolio */
 section#services h2, section#services p.sectiondescription, section#portfolio h2, section#portfolio p.sectiondescription
 {
 	text-align:center;
 }
 
-/* On margin l’icône fa-icon de la section services 
-+ listeservices + paragraphes + id paragraphe et paragrapheimage  + la couleur */
-section#services #listeservices #paragraphes .paragraphe .paragrapheimage
+.paragrapheimage
 {
-	display: flex; /* Flex pour les les 2 FA Icone */
-	margin-right: 5%;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.iconparagraphe,.rondbleuparagraphe,.cerclegris
+{
+	position: absolute;
+}
+
+.iconparagraphe
+{
 	color: rgb(82,159,195);
+	top: 19px;
+	left: 16px;
+}
+
+#iconparagraphe3
+{
+	margin-left: 6px;
 }
 
 /* On met la largeur de la parti droite des services pour que ça sois pas collé au bord */
@@ -271,11 +302,25 @@ section#portfolio #blocportfolio #menuportfolio
 .fa-caret-down
 {
 	margin-top: -24.5px;
-	padding: 0em 2em 0em 2em;
+	padding: 0em 2.1em 0em 2.1em;
 	font-size: 22px
 }
 
 #li1
 {
 	/* background-color: rgb(82,159,195); */
+}
+
+section#services #facircle .rondbleuparagraphe
+{
+	margin-left: 602px;
+	margin-top: 140px;
+	z-index: 9;
+}
+
+section#portfolio #facircle2 .rondbleuparagraphe
+{
+	margin-left: 603px;
+	margin-top: 1627.5px;
+	z-index: 9;
 }
