@@ -1,3 +1,4 @@
+
 /* On applique la police et le format de la police globalement */
 *
 {
@@ -104,9 +105,9 @@ nav ul li:hover
 @keyframes slider
 {
 	0% {margin-left:0;}
-	40% {margin-left:0;}
+	20% {margin-left:0;}
 	50% {margin-left:-100%;}
-	90% {margin-left:-100%;}
+	70% {margin-left:-100%;}
 	100% {margin-left:0;}
 }
 
@@ -124,7 +125,15 @@ nav ul li:hover
 	margin: 5em auto;
 }
 
-#services h1
+/* On augmente de 250% La taille du H2 du "titres" */
+#services h2
+{
+	margin-bottom: 0.3em;
+	font-size: 250%;
+}
+
+/* On augmente de 250% La taille du H2 du "titres" */
+#portfolio h2
 {
 	margin-bottom: 0.3em;
 	font-size: 250%;
@@ -181,8 +190,8 @@ hr
 	width: 100%;
 }
 
-/* On aligne le texte H1 dans la section #services + dans la section sertice et le paragraphes qu'il contient */
-section#services h1, section#services p.sectiondescription
+/* On aligne les texte H1 + les paragraphes dans toutes les section services/portfolio */
+section#services h2, section#services p.sectiondescription, section#portfolio h2, section#portfolio p.sectiondescription
 {
 	text-align:center;
 }
@@ -213,5 +222,60 @@ section#services #listeservices #paragraphes .paragraphetext aside
 /* On positionne l'onglet "Nos Services" pour que sa soit droit quand on clique sur la section du nav */
 #nos-service
 {
-	padding: 2em 0em 1.7em 0em;
+	padding: 2.5em 0em 1.7em 0em;
+}
+
+/* On positionne l'onglet "Nos Services" pour que sa soit droit quand on clique sur la section du nav */
+#nos-projets
+{
+	padding: 1.5em 0em 1.7em 0em;
+}
+
+/* Couleur de fond "gris" de la section portfolio */
+section#portfolio
+{
+	padding: 1em 0em 0em 0em;
+	background-color: rgb(245,245,245);
+}
+
+/* Centrage du bloc menu du portfolio + du padding pour l'abaisser */
+section#portfolio #blocportfolio #menuportfolio
+{
+	display: flex;
+	justify-content: center;
+	padding: 3em 0em 0em 0em;
+}
+
+/* Mise en page du menu de selection dans "nos projets" */
+#portfolio ul li
+{
+	padding: 0.8em 1em 0.8em 1em;
+	background-color: rgb(229, 229, 229);
+	font-weight: bold;
+}
+
+/* Couleur d'activation du "bouton" activation du menu portfolio */
+.activeli
+{
+	color: rgb(82,159,195);
+}
+
+/* Centrage des fleche du menu portfolio avec flex */
+#flechemenuportfolio 
+{
+	display: flex;
+	justify-content: center;
+}
+
+/* margin/padding + changement de la taille des fleches sur le menu portfolio */
+.fa-caret-down
+{
+	margin-top: -24.5px;
+	padding: 0em 2em 0em 2em;
+	font-size: 22px
+}
+
+#li1
+{
+	/* background-color: rgb(82,159,195); */
 }
