@@ -1,27 +1,33 @@
+/* On applique la police et le format de la police globalement */
+*
+{
+	font-family: "Open Sans", sans-serif;
+	font-weight: lighter;
+}
+
+/* On met le margin a 0 pour le body et les div pour 
+pas que il y ai de crop sur du au preset du navigateur */
 body,div
 {
 	margin: 0;
 }
 
-/* DEBUT CSS */
+/* On désactive l'affichage des puces au ul/li */
 ul li
 {
 	list-style:none;
 }
 
+/* Ajout d'une bordure sur le haut de la barre de navigation et du remplisage de l'espace des catégorie */
 nav ul li
 {
 	border-top: 3px solid rgb(255, 255, 255);
-	padding: 2em 1em 2em 1em;
+	padding: 2em 1em 4em 1em;
 }
 
 header
 {
 	height: 105px;
-}
-body 
-{
-	font-family: "Open Sans", sans-serif;
 }
 
 nav 
@@ -35,12 +41,20 @@ nav
 	left: 0;
 	display: flex;
 	justify-content: space-between;
+	height: 16%;
 }
 
+/* Supression des liens déjà visité dans la navbar + couleur noir par defaut */
 nav ul li a
 {
-	text-decoration: none;
+	text-decoration: none; 
 	color: black;
+}
+
+/* Mettre en "bleu" le texte de la navbar quand on passe la souris dessus */
+nav ul li a:hover
+{
+	color: rgb(82,159,195);
 }
 
 #navcss
@@ -48,6 +62,13 @@ nav ul li a
 	display: flex;
 	margin-right: 10%;
 	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/* On met en gras le text de la navbar */
+#navcss li a
+{
+	font-weight: bold;
 }
 
 nav div 
@@ -56,9 +77,11 @@ nav div
 	margin-left: 10%;
 }
 
+/* On ajoute la bordure "bleu" quand on passe la souri sur la navbar */
 nav ul li:hover 
 {
 	border-top: 3px solid rgb(82,159,195);
+	font-weight: bold;
 }
 
 /* HEADER */
@@ -66,7 +89,6 @@ nav ul li:hover
 #sectionslider
 {
 	overflow: hidden;
-	/*margin-top: 120px;*/
 }
 
 #slider
@@ -78,6 +100,7 @@ nav ul li:hover
 	animation: slider 8s infinite;
 }
 
+/* On ajoute les etapes pour l'animation du slider */
 @keyframes slider
 {
 	0% {margin-left:0;}
@@ -142,7 +165,7 @@ hr
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/*border: solid 1px black;*/
+	padding: 6em 0em 0em 0em; /* On augmente l'espace entre le bloc sectiondescription et listeservices */
 }
 
 .paragraphe
@@ -151,12 +174,6 @@ hr
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/*border: solid 1px blue;*/
-}
-
-.paragrapheimage
-{
-
 }
 
 .paragraphetext
@@ -164,17 +181,36 @@ hr
 	width: 100%;
 }
 
+/* On aligne le texte H1 dans la section #services + dans la section sertice et le paragraphes qu'il contient */
 section#services h1, section#services p.sectiondescription
 {
 	text-align:center;
 }
 
+/* On margin l’icône fa-icon de la section services 
++ listeservices + paragraphes + id paragraphe et paragrapheimage  + la couleur */
 section#services #listeservices #paragraphes .paragraphe .paragrapheimage
 {
-margin-right: 5%;
+	margin-right: 5%;
+	color: rgb(82,159,195);
 }
 
+/* On met la largeur de la parti droite des services pour que ça sois pas collé au bord */
 #paragraphes
 {
 	width: 45%
+}
+
+/* On met la taille de la police a 24px et en gras uniquement pour les 
+aside dans la section services listeservices paragraphes et l'id paragraphetext */
+section#services #listeservices #paragraphes .paragraphetext aside
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* On positionne l'onglet "Nos Services" pour que sa soit droit quand on clique sur la section du nav */
+#service
+{
+	padding: 2em 0em 1.7em 0em;
 }

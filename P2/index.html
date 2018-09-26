@@ -1,86 +1,89 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <link rel="shortcut icon" type="image/png" href="images/ico/favicon.ico"/>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8" /> <!-- Encodage -->
+        <link rel="shortcut icon" type="image/png" href="images/ico/favicon.ico"/> <!-- Favicon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- CDN FontAwesome -->
+        <link rel="stylesheet" href="style.css" /> <!-- Style CSS -->
         <title>WEBAGENCY</title>
     </head>
     
     <body>
-        <div id="bloc_page">
+        <div id="bloc_page"> <!-- Bloc de la page entière -->
             <header>
-                <nav>
+                <nav> <!-- Barre de navigation + logo -->
                     <div>
-                        <img src="images/logo.png" id="logo" alt="Logo" />
+                        <img src="images/logo.png" id="logo" alt="Logo WebAgency" />
                     </div>
-                        <ul id="navcss">
+                        <ul id="navcss"> <!-- Liste a puces de la barre de navigation -->
                             <li><a href="#">Accueil</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                 </nav>
             </header>
-            <section id="sectionslider">
+
+            <section id="sectionslider"> <!-- Section du Slider -->
                 <div id="slider">
                         <img src="images/slider/bg1.jpg" id="img1" alt="??" />
                         <img src="images/slider/bg2.jpg" id="img2" alt="!!" />
                 </div>
             </section>
-            <section id="services">
 
-                    <h1><strong>NOS SERVICES</strong></h1>
+            <section id="services"> <!-- Section global de la parti "Nos Services" -->
+            <div id="service"></div> <!-- Pour tombé au bon endroit de la page quand on clique dans la navbar -->               
+                    <!-- Debut de la parti Nos Services -->
+                    <h1>NOS SERVICES</h1>
                     <div id="facircle">
                     <i class="fa fa-circle" aria-hidden="true"></i>
                     <hr>
                     </div>
                     <br />
                     <p class="sectiondescription">Cyprus Paphus tanta omnium carbasos autem omnium onerariam Salamis procul<br /> externi urbes carbasos ad viribus ad nullius instructam abundat abundat.</p>
+                    <!-- Fin de la parti titre + paragraphe de l'entête de la parti Nos Services -->
 
-            
-
-
-                <div id="listeservices">
-                    <img src="images/main-feature.png">
+                <div id="listeservices"> <!-- Liste du containeur flex avec les paragraphe et l'image du mac -->
+                    <img src="images/main-feature.png"> <!-- Image du MAC a gauche -->
                     <div id="paragraphes">
-                        <div class="paragraphe">
-                            <div class="paragrapheimage">
-                                <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
-                            </div>
-                            <div class="paragraphetext">
-                                <h3>UX Design</h3>
-                                <p>Cyprus Paphus tanta omnium carbasos autem omnium onerariam <br />Salamis procul externi urbes carbasos ad viribus ad nullius <br />instructam abundat abundat.</p> 
-                            </div>
-                        </div>
 
-                        <div class="paragraphe">
+                        <div class="paragraphe"> <!-- Debut du paragraphe -->
                             <div class="paragrapheimage">
                                 <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
                             </div>
                             <div class="paragraphetext">
-                                <h3>UI Design</h3>
+                                <aside>UX Design</aside>
                                 <p>Cyprus Paphus tanta omnium carbasos autem omnium onerariam <br />Salamis procul externi urbes carbasos ad viribus ad nullius <br />instructam abundat abundat.</p> 
                             </div>
-                        </div>
+                        </div>                   <!-- Fin du paragraphe -->                   
 
-                        <div class="paragraphe">
+
+                        <div class="paragraphe"> <!-- Debut du paragraphe -->
                             <div class="paragrapheimage">
-                                <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-cubes fa-2x" aria-hidden="true"></i>
                             </div>
                             <div class="paragraphetext">
-                                <h3>SEO</h3>
+                                <aside>UI Design</aside>
                                 <p>Cyprus Paphus tanta omnium carbasos autem omnium onerariam <br />Salamis procul externi urbes carbasos ad viribus ad nullius <br />instructam abundat abundat.</p> 
                             </div>
-                        </div>
+                        </div>                   <!-- Fin du paragraphe -->
+
+                        <div class="paragraphe"> <!-- Debut du paragraphe -->
+                            <div class="paragrapheimage">
+                                <i class="fa fa-pie-chart fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="paragraphetext">
+                                <aside>SEO</aside>
+                                <p>Cyprus Paphus tanta omnium carbasos autem omnium onerariam <br />Salamis procul externi urbes carbasos ad viribus ad nullius <br />instructam abundat abundat.</p> 
+                            </div>
+                        </div>                   <!-- Fin du paragraphe -->
                     </div>
                 </div>
-            </section>
+            </section> <!-- Fin de la section Services -->
             
             
             <footer>
             </footer>
-        </div>
+        </div> <!-- Fin de la div bloc_page -->
     </body>
 </html>
