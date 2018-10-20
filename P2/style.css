@@ -270,7 +270,7 @@ section#portfolio
 }
 
 /* Centrage du bloc menu du portfolio + du padding pour l'abaisser */
-section#portfolio #blocportfolio #menuportfolio
+section#portfolio #blocportfolio .menubutton
 {
 	display: flex;
 	justify-content: center;
