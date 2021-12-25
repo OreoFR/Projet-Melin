@@ -1420,9 +1420,3 @@ a[class*=card]:hover .title {
 nav, li.nav-item {
   padding-left: 10em;
 }
-
-ul .list-unstyled {
-  padding-left: 0em;
-}
-
-
