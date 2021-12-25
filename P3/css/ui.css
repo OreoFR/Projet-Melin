@@ -600,15 +600,14 @@ p:last-child {
 }
 
 .btn-light {
-  background-color: #fff;
-  border-color: #e4e4e4;
-}
-.btn-light i {
-  color: #969696;
+  color: #fff;
+  background-color: #457f2c;
+  border-color: #457f2c;
 }
 .btn-light:hover {
-  background-color: #fff;
-  border-color: #989898;
+  color: #fff;
+  background-color: #375928;
+  border-color: #375928;
 }
 
 .btn .text + i {
@@ -797,10 +796,10 @@ ul.row, ul.row-sm {
   margin-bottom: 5px;
 }
 .list-menu a {
-  color: #343a40;
+  color: #000000;
 }
 .list-menu a:hover {
-  color: #3167eb;
+  color: #457f2c;
 }
 
 .cols-two {
@@ -1287,8 +1286,8 @@ a[class*=card]:hover .title {
   opacity: 0;
 }
 .checkbox-btn input:checked ~ .btn {
-  border-color: #3167eb;
-  background-color: #3167eb;
+  border-color: #457f2c;
+  background-color: #457f2c;
   color: #fff;
 }
 
@@ -1423,4 +1422,16 @@ nav, li.nav-item {
 
 .section-footer {
     background:#212529;
+}
+
+h6.title {
+  color: #457f2c;
+}
+
+.card-body {
+  color: #000000;
+}
+
+.custom-control-input:checked {
+  color:#457f2c;
 }
