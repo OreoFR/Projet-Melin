@@ -477,10 +477,10 @@ p:last-child {
   margin-bottom: 5px;
 }
 .section-footer ul a {
-  color: inherit;
+  color: #bdbebe;
 }
 .section-footer ul a:hover {
-  color: #3167eb;
+  color: #ffffff;
 }
 .section-footer .logo-footer {
   height: 40px;
@@ -488,7 +488,7 @@ p:last-child {
 .section-footer .title {
   font-weight: 600;
   margin-bottom: 16px;
-  color: #212529;
+  color: #bdbebe;
 }
 
 .footer-bottom {
@@ -1419,4 +1419,8 @@ a[class*=card]:hover .title {
 
 nav, li.nav-item {
   padding-left: 10em;
+}
+
+.section-footer {
+    background:#212529;
 }
