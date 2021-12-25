@@ -1417,12 +1417,12 @@ a[class*=card]:hover .title {
 
 /* ================ CSS NAV ================== */
 
-nav, li {
+nav, li.nav-item {
   padding-left: 10em;
 }
 
-.navbar-nav .nav-link {
-  padding-left: 0.5em;
-} 
+ul .list-unstyled {
+  padding-left: 0em;
+}
 
 
