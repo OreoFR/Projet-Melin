@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Bootstrap E-commerce UI Kit and templates for developers</title>
+
+    <meta name="google-site-verification" content="yyUEaRSMxa0GKTR7rHf4w7W80faLaU3CYGQNnblaKm8" />
+    <meta name="author" content="Bootstrap-ecommerce by Vosidiy">
+    <meta name="description" content="Bootstrap ui kit to create ecommerce shops and marketplaces, e-commerce framework on HTML, CSS, Bootstrap 4">
+    <meta name="keywords" content="ui kit, ecommerce templates, website, e-commerce, uikit framework, HTML, CSS, Bootstrap 4">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+ 
+    <!-- Bootstrap-ecommerce -->
+    <link href="bootstrap-ecommerce-html/css/bootstrap.css?v=2.0" rel="stylesheet" type="text/css"/>
+    <link href="bootstrap-ecommerce-html/css/ui.css?v=2.0" rel="stylesheet" type="text/css"/>
+    <link href="bootstrap-ecommerce-html/css/responsive.css?v=2.1" rel="stylesheet" />
+
+    <!-- fonticon -->
+    <link href="bootstrap-ecommerce-html/fonts/fontawesome/css/all.min.css?v=2.0" type="text/css" rel="stylesheet">
+
+    <!-- Custom styling -->
+    <link href="assets/css/style.css?v=2.1" rel="stylesheet" />
+    
+</head>
+
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" tabindex="-1" id="modal_hire" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Let's talk about...</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        &times
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-check">
+                        <li>UI/UX designing for Web &amp Mobile </li>
+                        <li>Converting your design into valid HTML5/CSS code</li>
+                        <li>Customize this UI kit for your project</li>
+                        <li>Have touble with downloading?</li>
+                    </ul>
+                    <p>Portfolio: <a href="http://behance.com/vosidiy" target="_blank">Behance.com/vosidiy</a> <br>
+                        Email me: vosidiy@gmail.com <br>
+                        Telegram chat: <a href="https://t.me/vosidiy" target="_blank">@vosidiy</a>
+                    </p>
+                    <p class="text-success">I will reply during the day</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- modal.// -->
+
+    <!-- ========================= SECTION HEADER ========================= -->
+    <header class="main-header fixed-top">
+        <nav class="navbar navbar-light bg-white border-bottom navbar-expand justify-content-between flex-column flex-lg-row">
+            <a href="http://bootstrap-ecommerce.com" class="navbar-brand">
+                <img src="assets/images/logo.png" class="logo" height="36">
+            </a>
+            <div class="navbar-top-wrap">
+                <ul class="nav nav-header">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-components.html">Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-templates.html">Templates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documentation.html">Documentation</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a class="btn btn-light d-none d-lg-inline-block" data-toggle="modal" href="#modal_hire"> Hire me </a>
+                <a class="btn btn-primary d-none d-lg-inline-block" href="index.html#download">Download</a>
+            </div>
+        </nav>
+    </header>
+    <!-- ========================= SECTION HEADER END // ========================= -->
+
+    <section class="section-intro">
+        <div class="container">
+            <div class="row">
+                <aside class="col-md-7">
+                    <h1 class="title-intro"> 
+                        E-commerce HTML <br> UI Kit and Templates <br>  <span class="text-muted">on Bootstrap 4 </span>
+                    </h1>
+
+                    <p style="max-width: 80%">
+                        <span class="doc-tag">E-commerce web sites</span> <span class="doc-tag">Marketplaces</span> <span class="doc-tag">Booking projects</span> <span class="doc-tag">Product presentations</span> <span class="doc-tag">Product catalogue</span>
+                    </p>
+                    <a href="page-components.html" class="shadow btn-lg rounded-pill btn btn-primary">Explore Components</a>
+                    <img src="assets/images/apps.png" height="28" class="ml-3">
+                
+                </aside>
+                <aside class="col-md-5">
+                    <img src="assets/images/main.png" class="img-intro" alt="e-commerce design templates kit">
+                </aside>
+            </div>
+        </div> <!-- container.// -->
+    </section>
+
+    <section class="section-features padding-y-lg">
+        <div class="container">
+
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <figure class="item-feature">
+                        <img src="assets/images/icons/1.svg" alt="icon for  sketchapp" title="icon for sketch">
+                        <h6 class="title">Modern Design</h6>
+                        <p>Design templates for e-commerce web sites with creative design components</p>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="item-feature">
+                        <img src="assets/images/icons/2.svg" alt="icon for HTML CSS Bootstrap" title="icon for code">
+                        <h6 class="title">Clean Code</h6>
+                        <p>Bootstrap ui kit includes HTML CSS components library to build online shop web sites </p>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="item-feature">
+                        <img src="assets/images/icons/3.svg" alt="icon for template">
+                        <h6 class="title">Sample templates</h6>
+                        <p>Fully responsive e-commerce templates and layouts to boost your front-end devlopment</p>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="item-feature">
+                        <img src="assets/images/icons/4.svg" alt="icon for mobile">
+                        <h6 class="title">Responsive</h6>
+                        <p>Mobile apps and web sites are popular now. Get mobile html templates and ui layouts</p>
+                    </figure>
+                </div>
+            </div> <!-- row.// -->
+
+
+            <br>
+
+            <article class="card-about card mx-auto border-0 shadow" style="max-width: 720px">
+                <div class="progress" style="border-bottom-left-radius:0; border-bottom-right-radius:0">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;">80% completed</div>
+                </div>
+                <div class="card-body text-center">
+                    <h2 class="mt-0 mb-3 title">Creating an e-commerce project?<br>
+                        80% of your work is already done..
+                    </h2>
+
+                    <p>
+                       Bootstrap ecommerce is a collection of professionally designed, ready to use, fully responsive HTML and CSS library which you can buld any e-commerce project very easily. Get started by checking out our components and 
+                        build responsive e-commerce projects on the web. You can develop online shops, marketplaces and booking websites with ready-made HTML, CSS, and JS
+                    </p>
+                    <p><b>Easy to customize</b> <b class="mx-4">Mobile friendly</b> <b>Support by author</b></p>
+                </div>
+            </article>
+
+        </div> <!-- container .//  -->
+    </section>
+    <!-- ========================= SECTION FEATURES END// ========================= -->
+
+
+    <section class="padding-bottom-lg">
+        <div class="container">
+            <header class="section-heading text-center">
+                <h2 class="section-title">For Developers</h2>
+                <p>Included html, css, sass files, Webfonts, Fonticons, Plugins, jQuery… <br>
+                   Semantic and clean code made with Bootstrap 4 CSS framework
+                </p>
+            </header><!-- sect-heading -->
+
+
+            <div class="row no-gutters">
+                <aside class="col-md-6">
+                    <div class="window" style="border-top-right-radius: 0; ">
+                        <div class="window-header">
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                        </div>
+                        <div class="window-body">
+                            <img src="assets/images/misc/files.jpg" style="max-width: 500px; mix-blend-mode: multiply;">
+                        </div>
+                    </div> <!-- window.// -->
+                </aside>
+                <aside class="col-md-6">
+                    <div class="window window-code" style="border-top-left-radius: 0;">
+                        <div class="window-body">
+                            <img src="assets/images/misc/code.png" style="max-width: 520px;">
+                        </div>
+                    </div>
+                </aside>
+            </div> <!-- row.// -->
+
+
+            <div class="text-center relative" style="margin-top: -26px;">
+                <a href="page-components.html" class="btn btn-light btn-lg shadow rounded-pill">Browse all components 
+
+                <svg class="ml-2" width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                        <g id="Group-22" transform="translate(0.557261, 0.538942)" stroke="#000000" stroke-width="2">
+                            <line x1="0.571478867" y1="7.23266804" x2="16.5728871" y2="7.23266804" id="Line-3" stroke-linejoin="round"></line>
+                            <polyline id="Line-4" points="11.9490798 0.679058831 18 7.23266804 11.9490798 13.6482447"></polyline>
+                        </g>
+                    </g>
+                </svg>
+
+                </a>
+            </div>
+
+        </div> <!-- container .//  -->
+    </section>
+    <!-- ========================= SECTION FEATURES END// ========================= -->
+
+
+
+
+
+    <section class="bg padding-y">
+        <div class="container">
+
+        <header class="section-heading  text-center">
+            <h2 class="section-title">With basic templates</h2>
+            <p>Ready to use simple e-commerce layouts. <br> All necessary files are included to start project quickly. </p>
+        </header><!-- sect-heading -->
+
+        <div class="row">
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-index-1.html" class="card-template">
+                    <div class="img-wrap">
+                        <img src="assets/images/screenshots/starter1.jpg" alt="ecommerce homepage design sample" title="ecommerce design 2020">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Home page 1
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-index-2.html" class="card-template">
+                    <div  class="img-wrap">
+                        <img src="assets/images/screenshots/starter3.jpg" alt="e-commerce home design sample" title="ecommerce template">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Home page 2
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-index-3.html" class="card-template">
+                    <div  class="img-wrap">
+                        <img src="assets/images/screenshots/starter2.jpg" alt="ecommerce main page design template" title="ecommerce starter template">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Home page 3
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-listing-grid.html" class="card-template">
+                    <div class="img-wrap">
+                        <img src="assets/images/screenshots/starter4.jpg">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Listing grid
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-listing-large.html" class="card-template">
+                    <div  class="img-wrap">
+                        <img src="assets/images/screenshots/starter5.jpg" title="product listing template for ecommerce">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Listing large
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-shopping-cart.html" class="card-template">
+                    <div  class="img-wrap">
+                        <img src="assets/images/screenshots/starter6.jpg" title="product order page for ecommerce">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Shopping cart
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-user-register.html" class="card-template">
+                    <div  class="img-wrap">
+                        <img src="assets/images/screenshots/starter7.jpg">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Page register
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-user-login.html" class="card-template">
+                    <div  class="img-wrap">
+                        <img src="assets/images/screenshots/starter8.jpg">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Page login
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+            <div class="col-md-4">
+                <a target="_blank" href="bootstrap-ecommerce-html/page-blank-starter.html" class="card-template">
+                    <div  class="img-wrap">
+                        <img src="assets/images/screenshots/starter9.jpg">
+                    </div>
+                    <figcaption class="text-wrap">
+                        Blank page
+                    </figcaption>
+                </a>
+            </div> <!-- col.// -->
+        </div> <!-- row.// -->
+        </div> <!-- container .//  -->
+
+        </div> <!-- container .//  -->
+    </section>
+
+
+    <section class="padding-y-lg relative" id="download">
+        <div class="container">
+            <header class="section-heading text-center mb-5">
+                <h2 class="section-title">Trusted by 1500+ web developers</h2>
+                <p style="max-width:900px" class="text-muted mx-auto">Download beautiful templates with pre-made css components library for your e-commerce projects. Contains all neccessary elements for Your next project including ecommerce sketch design templates and ecommerce html ui kit with templates. <br> We will notify about future updates. </p>
+            </header><!-- sect-heading -->
+
+   
+            <figure class="card shadow mx-auto" style="max-width: 700px;">
+            <div class="p-3 p-md-5">
+                <header class="mb-4 text-center">
+                     <h4 class="title">Download Bootstrap Ecommerce UI</h4>
+                    <p class="text-muted">Last update: Aug. 2020</p>
+                </header>
+                <p class="text-white-50"></p>
+                <div class="row text-muted mb-3">
+                    <div class="col-md">
+                        <ul class="list-check">
+                            <li>HTML/CSS/SASS files </li>
+                            <li>Javascript snippets </li>
+                            <li>Template samples</li>
+                            
+                        </ul>
+                    </div>
+                    <div  class="col-lg">
+                        <ul class="list-check">
+                            
+                            <li>Icons (SVG, Fonticon)</li>
+                            <li>Sample images</li>
+                            <li>Responsive</li>
+                        </ul>
+                    </div>
+                    <div  class="col-lg">
+                        <ul class="list-check">
+                            <li>50+ components</li>
+                            <li>Fonts (Roboto, InterUI) </li>
+                            <li>Support by author</li>
+                        </ul>
+                    </div>
+                </div>   <!-- row.// -->
+                <div class="text-center">
+                    
+                    <a href="page-components.html" class="btn btn-outline-success btn-lg shadow-sm text-uppercase"> Demo view  </i></a> 
+
+                    <a href="https://gumroad.com/l/bootstrap-ecommerce-uikit" target="_blank" class="btn btn-success  btn-lg shadow-sm text-uppercase"> Download all  </i></a>
+
+                </div>
+                <p class="text-center my-3"> <b>Only $7</b>  &nbsp; <del class="text-danger">$20</del>  
+                </p>
+                <p class="text-center text-muted"><i class="fa fa-lock"></i> Secure Checkout by Gumroad </span> &nbsp; <img height="16" src="assets/images/misc/payments.png"></p>
+              
+            </div>
+        </figure>
+            <br><br>
+
+            <p class="text-center">
+                <span class="text-muted">Need design version? </span> <br> <a target="_blank" href="https://ecommerce-uikit.com/">Get Sketch &amp; Figma file</a>
+            </p>
+        </div> <!-- container .//  -->
+    </section>
+
+
+
+    <!-- ========================= FOOTER ========================= -->
+    <footer class="section-footer border-top padding-y">
+        <div class="container">
+            <p class="text-center mt-3"><img src="assets/images/logo.png" height="38"></p>
+        </div><!-- //container -->
+    </footer>
+    <!-- ========================= FOOTER END // ========================= -->
+
+
+    <!-- Bootstrap-ecommerce JS -->
+    <script src="bootstrap-ecommerce-html/js/jquery-2.0.0.min.js" type="text/javascript"></script>
+    <script src="bootstrap-ecommerce-html/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="bootstrap-ecommerce-html/js/script.js?v=2.0" type="text/javascript"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115916444-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115916444-1');
+
+    </script>
+
+</body>
+
+</html>
