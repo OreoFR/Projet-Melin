@@ -1,0 +1,153 @@
+.nav{
+    padding-top: 3%;
+    font-size: larger;
+    height: 15ex;
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+
+.nav-gauche {
+    width: 33%;
+    text-align: center;
+ 
+}
+
+.nav-logo {
+    width: 33%;
+  
+}
+
+.nav-droite {
+    width: 20%;
+    text-align: center;
+}
+
+a:hover {
+    color: brown;
+  }
+
+.nav-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+body {
+  margin: 0;
+  background: white;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+}
+.container {
+  /* position: relative; */
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face { 
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+.titreun{
+    margin-top: 500px;
+}
+.titres {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.image-banque{
+    column-count: 2;
+   
+}
+
+.vitrine img {
+    width: 85%;
+    margin-bottom: 3%;
+ 
+}
+
+.carousel__face:nth-child(1) {
+  background-image: url("../images/ArtodecoCollection.png");
+  transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) { 
+  background-image: url("..//images/coffeetablecollection.png");
+    transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+  background-image: url("..//images/CollectionRoséGold.png");
+  transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+  background-image: url("..//images/Fleurs_de_Paris-Baby_Pink.png");
+  transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) { 
+  background-image: url("..//images/Fleurs_de_Paris-Bridal_pink-Baby_pink.png");
+ transform: rotateY(160deg) translateZ(430px); }
+ .carousel__face:nth-child(6) { 
+  background-image: url("../images/Fleurs_de_Paris-interior1.png");
+ transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) { 
+  background-image: url("../images/Fleurs_de_Paris-Royal_Red.png");
+ transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+  background-image: url("../images/InfiniteLoveCollection.png");
+  transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+  background-image: url("../images/TheCandleCollection.png");
+  transform: rotateY(320deg) translateZ(430px); } 
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+
+
+ ul li{
+  list-style: none;
+  display: inline;
+  color: black;
+  width: 100%;
+}
+
+.fab fa-paypal {
+  width: 50px;
+  height: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
